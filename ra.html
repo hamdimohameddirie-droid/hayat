@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Fashion Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body >
+
+<!-- MAIN CONTAINER -->
+<div class="max-w-6xl mx-auto bg-white min-h-screen">
+
+    <!-- HEADER -->
+    <header class="flex justify-between items-center px-6 py-5">
+        <h1 class="text-2xl font-black">ECOMMERCE</h1>
+
+        <nav class="hidden md:flex gap-8 text-sm">
+            <a href="#" class="hover:text-gray-500">All Category</a>
+            <a href="#" class="hover:text-gray-500">Best Sellers</a>
+            <a href="#" class="hover:text-gray-500">Special Deals</a>
+        </nav>
+
+        <button class="md:hidden text-2xl">☰</button>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="grid grid-cols-3 gap-3 px-5">
+
+        <div class="col-span-2">
+            <img
+                src="https://media.istockphoto.com/id/1163538637/photo/charming-teen-girl-looking-at-camera.jpg?s=170667a&w=0&k=20&c=TibXUvOplRwFDQ6Uz6TNeQbOVnFp9uZkfkIQuQ4TG9U="
+                class="w-full h-65 object-cover rounded-2xl"
+            >
+        </div>
+
+        <div class="flex flex-col gap-3">
+            <img
+                src="https://tse2.mm.bing.net/th/id/OIP.r8Z7d1WFL5zOHcD_CnsDfAHaLH?r=0&rs=1&pid=ImgDetMain&o=7&rm=3 w-500"
+                class="w-full h-56 object-cover rounded-2xl"
+            >
+
+            <img
+                src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=500"
+                class="w-full h-56 object-cover rounded-2xl"
+            >
+        </div>
+    </section>
+
+    <!-- CASUAL INSPIRATIONS -->
+    <section class="px-5 py-8">
+        <div class="grid md:grid-cols-3 gap-4 items-center">
+
+            <div>
+                <h2 class="text-3xl font-semibold">Casual<br>Inspirations</h2>
+
+                <p class="text-gray-500 text-sm mt-3">
+                    Our favorite combination for casual outfits
+                    that can inspire you to enjoy all your daily activities.
+                </p>
+
+                <button class="border border-black rounded-full px-6 py-2 mt-4 text-xs">
+                    BROWSE INSPIRATIONS
+                </button>
+            </div>
+
+            <img
+                src="https://media.istockphoto.com/id/671671086/photo/smiling-beauty-perfect-redhead-woman-fashion-model-cosmetology-and-aesthetic-medicine-concept.jpg?s=170667a&w=0&k=20&c=UAk7Rht0VCqq1gaw37acJki6d2zFqFa1g9iphbuP7Yo="
+                class="w-full h-48 object-cover rounded-2xl"
+            >
+
+            <img
+                src="https://th.bing.com/th/id/R.5b01f68c6fa6b528333752de460c9ed8?rik=KXDKeMAeY0ISvg&pid=ImgRaw&r=0"
+                class="w-full h-48 object-cover rounded-2xl"
+            >
+        </div>
+    </section>
+
+    <!-- TRENDING PRODUCTS -->
+    <section class="px-5 py-6">
+        <h2 class="text-2xl font-semibold mb-5">Trending</h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+
+            <div>
+                <img src="https://tse1.mm.bing.net/th/id/OIP.G_TdMwO7vfVRl3a9OhEjEgHaEO?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                class="w-full h-44 object-cover rounded-2xl">
+                <h3 class="font-medium text-sm mt-2">Casual Shoe</h3>
+                <p class="text-xs text-gray-500">$25</p>
+            </div>
+
+            <div>
+                <img src="https://tse1.explicit.bing.net/th/id/OIP.RT_QuKRc7WefLIY6Uzo2xwHaHU?r=0&w=500&h=494&rs=1&pid=ImgDetMain&o=7&rm=3"
+                class="w-full h-44 object-cover rounded-2xl">
+                <h3 class="font-medium text-sm mt-2">Skateboard Shoe</h3>
+                <p class="text-xs text-gray-500">$75</p>
+            </div>
+
+            <div>
+                <img src="https://tse1.mm.bing.net/th/id/OIP.q8-IEkryEIUnY8xkoj7oWQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                class="w-full h-44 object-cover rounded-2xl">
+                <h3 class="font-medium text-sm mt-2">Skateboard Shoe</h3>
+                <p class="text-xs text-gray-500">$125</p>
+            </div>
+
+            <div>
+                <img src="data:image/webp;base64,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"
+                class="w-full h-44 object-cover rounded-2xl">
+                <h3 class="font-medium text-sm mt-2">Skateboard Shoe</h3>
+                <p class="text-xs text-gray-500">$125</p>
+            </div>
+
+            <div>
+                <img src="https://i5.walmartimages.com/seo/TOWED22-Flat-Shoes-For-Women-Comfortable-Round-Toe-Flats-Shoes-Women-Slip-On-Ballet-Flats-for-Women-Casual-Women-s-Flats-for-Walking-Dark-Blue_5fc20c06-5b88-4001-9dc4-b8c32f448747.4d3eb2a994180367cef3cf708dd4ce7d.jpeg"
+                class="w-full h-44 object-cover rounded-2xl">
+                <h3 class="font-medium text-sm mt-2">Basket Shoe</h3>
+                <p class="text-xs text-gray-500">$125</p>
+            </div>
+
+            <div>
+                <img src="https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3?w=600"
+                class="w-full h-44 object-cover rounded-2xl">
+                <h3 class="font-medium text-sm mt-2">Sportswear Shoe</h3>
+                <p class="text-xs text-gray-500">$150</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- LARGE BANNER -->
+    <section class="px-5 py-5">
+        <img
+            src="https://tse4.mm.bing.net/th/id/OIP.hjMu0yTWut1PxngrP9l4_QHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3 1200"
+            class="w-full h-64 object-cover rounded-2xl"
+        >
+    </section>
+
+    <!-- BLOG SECTION -->
+    <section class="px-5 py-8">
+
+        <h2 class="text-3xl font-semibold mb-2">
+            Why you'll love to<br>shop on our website
+        </h2>
+
+        <p class="text-sm text-gray-500 mb-5">From The Blog</p>
+
+        <div class="grid md:grid-cols-2 gap-5 items-center">
+
+            <img
+                src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=700"
+                class="w-full h-52 object-cover rounded-2xl"
+            >
+
+            <div>
+                <h3 class="text-2xl font-medium">
+                    How to combine your daily outfit to looks fresh and cool.
+                </h3>
+
+                <p class="text-gray-500 text-sm mt-3">
+                    Maybe you don't need to buy new clothes every time.
+                    Discover simple ways to combine your outfits
+                    and create a beautiful fashion style.
+                </p>
+
+                <button class="border border-black rounded-full px-6 py-2 mt-4 text-xs">
+                    READ MORE
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-black text-white px-6 py-10 w-full">
+
+        <div class="grid md:grid-cols-4 gap-8">
+
+            <div>
+                <h2 class="text-xl font-bold">ECOMMERCE</h2>
+                <p class="text-gray-400 text-xs mt-3">
+                    Welcome to our fashion store.
+                    Find your favorite style and enjoy shopping.
+                </p>
+
+                <div class="flex mt-4">
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        class="p-2 w-40 text-black text-xs rounded-l-full"
+                    >
+                    <button class="bg-white text-black px-4 rounded-r-full text-xs">
+                        Submit
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="font-semibold mb-3">PAGES</h3>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Shop</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="font-semibold mb-3">MENU</h3>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li>All Categories</li>
+                    <li>Best Sellers</li>
+                    <li>New Arrivals</li>
+                    <li>Special Deals</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="font-semibold mb-3">CONTACT</h3>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li>Contact Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                    <li>Support</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <p class="text-center text-gray-500 text-xs mt-10">
+            © 2026 Ecommerce. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</div>
+
+</body>
+</html>
